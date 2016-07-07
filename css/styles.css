@@ -1,0 +1,57 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  text-align: center;
+}
+
+.align-right {
+  float: right;
+}
+
+.navbar {
+  background: white;
+  border: none;
+}
+
+.navbar-brand {
+  margin-top: 0.5vh;
+}
+
+.one, .three {
+  background: #f6f6f6;
+}
+
+.two {
+  background: #efefef;
+}
+
+.btn-default {
+  background: #c8c8c8;
+  color: white;
+}
+
+.row {
+  padding: 2vh 2vw 0 2vw;
+}
+
+.image {
+  position: relative;
+  max-width: 95%;
+  height: 250px;
+}
+
+.image img {
+  max-height: 250px;
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
